@@ -23,7 +23,7 @@ p, table {
 }
 
 a {
-	color: #CC0000;
+	color: #0676d8;
 }
 
 ol {
@@ -44,7 +44,7 @@ ol>li:before {
 .project-title , h3{
 	font-size: 12pt;
     font-weight: bold;
-    color: #CC0000;
+    color: #0676d8;
 }
 
 .paper-title {
