@@ -5,7 +5,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
 	width: 90%;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
 	counter-reset: rule;
 }
@@ -84,3 +84,58 @@ ol>li:before {
 	font-size: 8pt;
 }
 
+.name , h2{
+	margin-top: 3px;margin-bottom: 0px;}
+
+.lab , h3{
+	margin-top: 3px;margin-bottom: 0px;}
+
+
+<STYLE type="text/css">
+
+.ft0{font: 19px 'Arial';line-height: 22px;}
+.ft1{font: 15px 'Arial';line-height: 17px;}
+.ft2{font: 18px 'Arial';line-height: 21px;}
+.ft3{font: 19px 'Arial';margin-left: 22px;line-height: 22px;}
+.ft4{font: 16px 'Arial';line-height: 18px;}
+.ft5{font: 16px 'Arial';margin-left: 18px;line-height: 18px;}
+.ft6{font: 13px 'Arial';text-decoration: underline;line-height: 16px;}
+.ft7{font: 13px 'Arial';line-height: 16px;}
+.ft8{font: 9px 'Arial';line-height: 12px;position: relative; bottom: 5px;}
+
+.p0{text-align: left;padding-left: 251px;margin-top: 0px;margin-bottom: 0px;}
+.p1{text-align: left;padding-left: 180px;margin-top: 6px;margin-bottom: 0px;}
+.p2{text-align: justify;padding-left: 3px;margin-top: 71px;margin-bottom: 0px;}
+.p3{text-align: justify;padding-left: 3px;margin-top: 15px;margin-bottom: 0px;}
+.p4{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 10px;margin-bottom: 0px;text-indent: -30px;}
+.p5{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 6px;margin-bottom: 0px;text-indent: -30px;}
+.p6{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 7px;margin-bottom: 0px;text-indent: -30px;}
+.p7{text-align: justify;padding-left: 3px;margin-top: 24px;margin-bottom: 0px;}
+.p8{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 10px;margin-bottom: 0px;text-indent: -39px;}
+.p9{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 7px;margin-bottom: 0px;text-indent: -39px;}
+.p10{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 6px;margin-bottom: 0px;text-indent: -39px;}
+.p11{text-align: left;margin-top: 0px;margin-bottom: 0px;}
+.p12{text-align: left;padding-left: 39px;padding-right: 51px;margin-top: 0px;margin-bottom: 0px;text-indent: -39px;}
+.p13{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 6px;margin-bottom: 0px;text-indent: -33px;}
+.p14{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 7px;margin-bottom: 0px;text-indent: -33px;}
+.p15{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 8px;margin-bottom: 0px;text-indent: -33px;}
+.p16{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 23px;margin-bottom: 0px;text-indent: -33px;}
+.p17{text-align: justify;padding-left: 3px;margin-top: 28px;margin-bottom: 0px;}
+.p18{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 10px;margin-bottom: 0px;text-indent: -37px;}
+.p19{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 7px;margin-bottom: 0px;text-indent: -37px;}
+.p20{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 9px;margin-bottom: 0px;text-indent: -37px;}
+.p21{text-align: justify;padding-left: 39px;padding-right: 51px;margin-top: 6px;margin-bottom: 0px;text-indent: -37px;}
+.p22{text-align: justify;padding-left: 39px;padding-right: 50px;margin-top: 8px;margin-bottom: 0px;text-indent: -37px;}
+.p23{text-align: justify;margin-top: 0px;margin-bottom: 0px;}
+.p24{text-align: justify;padding-left: 36px;padding-right: 51px;margin-top: 10px;margin-bottom: 0px;text-indent: -33px;}
+.p25{text-align: justify;padding-left: 36px;padding-right: 51px;margin-top: 7px;margin-bottom: 0px;text-indent: -33px;}
+.p26{text-align: justify;margin-top: 27px;margin-bottom: 0px;}
+.p27{text-align: left;padding-left: 3px;margin-top: 14px;margin-bottom: 0px;}
+.p28{text-align: left;padding-left: 3px;margin-top: 5px;margin-bottom: 0px;}
+.p29{text-align: left;padding-left: 3px;margin-top: 6px;margin-bottom: 0px;}
+
+.pA{text-align: justify;padding-left: 10px;padding-right: 0px;margin-top: 0px;margin-bottom: 0px;text-indent: -10px;}
+.ftA{font: 12px 'Open Sans';line-height: 15px;}
+
+
+</STYLE>

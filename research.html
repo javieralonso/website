@@ -19,44 +19,109 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     </head>
 
+<title>collapse text</title>
+  <style type="text/css">
+  #list span,
+  #list .hide,
+  #list:target .show {
+    display:none;
+  }
+  #list .show,
+  #list:target span,
+  #list:target .hide{
+    display:inline;
+ }  
+   @media print { .hide, .show { display: none; } }
+  </style>
+
 <body>
     
 	<table>
 	<tr>
 	<td>
-	<h2>Javier Alonso-Mora, Ph.D.</h2>		
-	<h3>Autonomous Multi-Robot Systems</h3>	
+	<h2>Dr. Javier Alonso-Mora<font size="-0">,	Assistant Professor  </font></h2>
+	<h3>Autonomous Multi-Robots Lab. Delft University of Technology</h3>
 		<p>
 		<a href="index.html"> Home</a> |
 		<a href="research.html"> Research</a> |
 		<a href="publications.html"> Publications</a> |
-		<a href="videos.html">Videos</a> |
 		<a href="teaching.html">Teaching</a> |
-		<a href="bio.html">Bio</a> |
-		<a href="media.html">Media</a> |
-		<a href="contact.html">Contact</a>
+		<a href="videos.html">Videos and Media</a> |
+		<a href="index.html#exactline">Contact</a> |
 		</p>
 	</td>
 	</tr>
 	</table>
-    
-    <p>
-    Under construction. Refer to
-	<a href="videos.html">Videos</a>
-	and
-	<a href="publications.html"> Publications</a>
-	</p>
+   
 
 	<table>
-    <tr>
-        <td valign="top">
-        figure
-        </td>
-        <td valign="top">
-        text
-        </td>
-    </tr>
+	<tr>
+	<td>	
+		<center><img src="figs/pixelbots-small.png" width='110'></center>
+	</td>
+	<td style="text-align: left;">
+       <b>Reactive mission and motion planning with deadlock resolution avoiding dynamic obstacles</b>
+       <br/>
+           <SPAN class="ft6">J. Alonso-Mora</SPAN>, J. A. DeCastro, V. Raman, D. Rus, H. Kress-Gazit
+           <br/>
+           <em> Autonomous Robots, August 2017.</em>
+       <br/>
+           <a href="docs/17-alonsomora-AURO-mission.pdf">[PDF]</a>
+			<a href="https://youtu.be/oF8T6ZRQng8">[video]</a>
+		<br/>
+	</td>
+	</tr>
 	</table>
+
+	<table>
+	<tr>
+	<td style="text-align: left;">
+	<P class="pA ftA">
+	<span><em>Abstract:</em>   
+		In the near future mobile robots, such as personal
+		robots or mobile manipulators, will share the workspace
+		with other robots and humans. We present a method for
+		mission and motion planning that applies to small teams
+		of robots performing a task in an environment with moving
+		obstacles, such as humans.   
+        <span id="list"><a href="#list" class="show">
+        ...expand...
+		</a> <span>
+        Given a mission specification
+		written in linear temporal logic, such as patrolling a set of rooms, we synthesize an automaton from which the robots
+		can extract valid strategies. This centralized automaton is
+		executed by the robots in the team at runtime, and in conjunction
+		with a distributed motion planner that guarantees
+		avoidance of moving obstacles. Our contribution is a correct by-construction
+		synthesis approach to multi-robot mission
+		planning that guarantees collision avoidance with respect
+		to moving obstacles, guarantees satisfaction of the mission
+		specification and resolves encountered deadlocks, where a
+		moving obstacle blocks the robot temporally. Our method
+		provides conditions under which deadlock will be avoided by
+		identifying environment behaviors that, when encountered
+		at runtime, may prevent the robot team from achieving its
+		goals. In particular, (1) it identifies deadlock conditions; (2)
+		it is able to check whether they can be resolved; and (3) the
+		robots implement the deadlock resolution policy locally in
+		a distributed manner. The approach is capable of synthesizing
+		and executing plans even with a high density of dynamic
+		obstacles. In contrast to many existing approaches to mission
+		and motion planning, it is scalable with the number of
+		moving obstacles. We demonstrate the approach in physical
+		experiments with walking humanoids moving in 2D environments
+		and in simulation with aerial vehicles (quadrotors)
+		navigating in 2D and 3D environments.     
+           <a href="#" class="hide">hide</a> </span>
+           </span>
+     </span>
+
+</P>
+</td>
+</tr>
+</table>
+	<div class="clearfix"></div><hr />
+
 	
 	<!------------ STATS -------------->
 	<script>
