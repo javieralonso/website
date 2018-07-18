@@ -19,21 +19,6 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     </head>
 
-<title>collapse text</title>
-  <style type="text/css">
-  #list span,
-  #list .hide,
-  #list:target .show {
-    display:none;
-  }
-  #list .show,
-  #list:target span,
-  #list:target .hide{
-    display:inline;
- }  
-   @media print { .hide, .show { display: none; } }
-  </style>
-
 <body>
     
 	<table>
@@ -48,81 +33,100 @@
 		<a href="publications.html"> Publications</a> |
 		<a href="teaching.html">Teaching</a> |
 		<a href="videos.html">Videos and Media</a> |
-		<a href="index.html#exactline">Bio & Contact</a> |
+		<a href="index.html#contact">Bio & Contact</a> |
 		</p>
 	</td>
 	</tr>
 	</table>
-   
 
-	<table>
-	<tr>
-	<td>	
-		<center><img src="figs/pixelbots-small.png" width='110'></center>
-	</td>
-	<td style="text-align: left;">
-       <b>Reactive mission and motion planning with deadlock resolution avoiding dynamic obstacles</b>
-       <br/>
-           <SPAN class="ft6">J. Alonso-Mora</SPAN>, J. A. DeCastro, V. Raman, D. Rus, H. Kress-Gazit
-           <br/>
-           <em> Autonomous Robots, August 2017.</em>
-       <br/>
-           <a href="docs/17-alonsomora-AURO-mission.pdf">[PDF]</a>
-			<a href="https://youtu.be/oF8T6ZRQng8">[video]</a>
-		<br/>
-	</td>
-	</tr>
-	</table>
+	<p> 
+    Our main research interest is in navigation, motion planning and control of autonomous mobile robots and vehicles, with a special emphasis in multi-robot systems and robots/vehicles that interact with other robots/vehicles and humans in dynamic and uncertain environments. We contribute novel methods and solutions in the areas of motion planning, dynamic vehicle routing, multi-robot coordination, task assignment, aerial videography, formation control, collision avoidance and human-swarm interaction.
+	 </p>
+	 <p>
+	 Building towards the smart cities of the future, we apply these techniques in various fields, including autonomous cars, automated factories, aerial vehicles and intelligent transportation systems with ride-sharing.
+	 </p>
+	 <p>
+	 Our current research activities are:
+	</p>
 
-	<table>
-	<tr>
-	<td style="text-align: left;">
-	<P class="pA ftA">
-	<span><em>Abstract:</em>   
-		In the near future mobile robots, such as personal
-		robots or mobile manipulators, will share the workspace
-		with other robots and humans. We present a method for
-		mission and motion planning that applies to small teams
-		of robots performing a task in an environment with moving
-		obstacles, such as humans.   
-        <span id="list"><a href="#list" class="show">
-        ...expand...
-		</a> <span>
-        Given a mission specification
-		written in linear temporal logic, such as patrolling a set of rooms, we synthesize an automaton from which the robots
-		can extract valid strategies. This centralized automaton is
-		executed by the robots in the team at runtime, and in conjunction
-		with a distributed motion planner that guarantees
-		avoidance of moving obstacles. Our contribution is a correct by-construction
-		synthesis approach to multi-robot mission
-		planning that guarantees collision avoidance with respect
-		to moving obstacles, guarantees satisfaction of the mission
-		specification and resolves encountered deadlocks, where a
-		moving obstacle blocks the robot temporally. Our method
-		provides conditions under which deadlock will be avoided by
-		identifying environment behaviors that, when encountered
-		at runtime, may prevent the robot team from achieving its
-		goals. In particular, (1) it identifies deadlock conditions; (2)
-		it is able to check whether they can be resolved; and (3) the
-		robots implement the deadlock resolution policy locally in
-		a distributed manner. The approach is capable of synthesizing
-		and executing plans even with a high density of dynamic
-		obstacles. In contrast to many existing approaches to mission
-		and motion planning, it is scalable with the number of
-		moving obstacles. We demonstrate the approach in physical
-		experiments with walking humanoids moving in 2D environments
-		and in simulation with aerial vehicles (quadrotors)
-		navigating in 2D and 3D environments.     
-           <a href="#" class="hide">hide</a> </span>
-           </span>
-     </span>
+<h5>
+Automated Mobility-on-Demand with Ride-sharing
+<a href="res/res_ridesharing.html"> --> Read more</a>
+</h5>
 
-</P>
-</td>
-</tr>
-</table>
-	<div class="clearfix"></div><hr />
+<h5> Autonomous Vehicles (Urban driving)
+<a href="res/res_cars.html"> --> Read more</a>
+</h5>
 
+<h5> Aerial Vehicles
+<a href="res/res_aerial.html"> --> Read more</a>
+</h5>
+
+<h5> Mobile Manipulation
+<a href="res/res_manipulation.html"> --> Read more</a>
+</h5>
+
+<h5> Reactive Collision Avoidance
+<a href="res/res_avoidance.html"> --> Read more</a>
+</h5>
+
+<h5> Multi-robot Systems (Other)
+<a href="res/res_multirobot.html"> --> Read more</a>
+</h5>
+
+<h5> Other Projects
+<a href="res/res_other.html"> --> Read more</a>
+</h5>
+
+
+<h3>
+	Funding
+</h3>
+
+<h5>
+	Current
+</h5>
+
+	<p> 
+		- NWO Talent Scheme VENI <a href="https://www.nwo.nl/en/news-and-events/news/2017/154-researchers-who-recently-obtained-their-doctorate-receive-a-veni-grant-worth-250000-euros.html">grant </a> by the Netherlands Organisation for Scientific Research (NWO), 2017-2020.
+		<br>
+		- 3mE Cohesion funding, 2018-2019.
+		<br>
+		- AMS strategic funding by the Amsterdam Institute for Advanced Metropolitan Solutions <a href="http://www.ams-institute.org/roboat/">(AMS)</a>, 2017-2018.
+		<br>
+		- NWO Take-Off Phase 1 grant in collaboration with Mainblades Inspection, 2018.
+	</p>
+
+<h5>
+	Past
+</h5>
+
+	<p> 
+		At TU Delft:
+		<br>
+		- 3mE Cohesion funding, 2017-2018.
+	</p>
+
+	<p> 
+		During my time at MIT (2014-2016) I was involved in the following projects:
+		<br>
+		- Parallel autonomy and autonomous cars, <a href="http://news.mit.edu/2015/csail-toyota-25-million-research-center-autonomous-cars-0904">CSAIL-Toyota</a> joint research effort.
+		<br>
+		- ONR SMart Adaptive Reliable Teams for Persistent Surveillance <a href="http://groups.csail.mit.edu/drl/smarts/">SMARTS</a>.
+		<br>
+		- Mobile robots on the factory floor, funded by The Boeing Company.
+		<br>
+		- Future Urban Mobility, Singapore MIT Alliance for Research and Technology <a href="http://smart.mit.edu/research/future-urban-mobility/future-urban-mobility.html">SMART</a>.
+
+		<!--My research interests include computational design, distributed robotics, path planning, and computational geometry.
+		My current work is in algorithms for synthesis and analysis of engineering designs from modular components.-->
+	</p>
+
+	<p> 
+		During my time at ETH Zurich (2010-2014) my projects were funded by the
+		<a href="http://www.asl.ethz.ch/">Autonomous Systems Lab</a> and
+		<a href="https://www.disneyresearch.com/research-labs/disney-research-zurich/">Disney Research Zurich</a>.
+	</p>
 	
 	<!------------ STATS -------------->
 	<script>
