@@ -237,6 +237,65 @@
 
 	<h4> Research highlights </h4>
 
+<p> 
+Please have a look at our Youtube channel:
+<a href="https://www.youtube.com/channel/UCOk5_xHa9JxAxpe_IRMtmwA"> Youtube channel</a>
+or the
+<a href="research.html"> Research</a>
+and
+<a href="publications.html"> Publications</a>
+tabs.
+</p>
+
+<p>
+AMR Playlist:
+<br>
+<!---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLOksz-MTFhN2T4gYQlLHR2lGCdC0BDkJw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
+
+<html>
+  <body>
+    <div id="player"></div>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        function onYouTubeIframeAPIReady() {
+            var numPl = Math.floor((Math.random() * 50) + 1);
+            var player = new YT.Player("player", {
+                height: '315',
+                width: '560',
+                playerVars: {
+                    listType:'playlist',
+                    list:'PLOksz-MTFhN2T4gYQlLHR2lGCdC0BDkJw',
+                    index: numPl,
+                    autoplay: 1,
+    },
+                events: {
+                    'onReady': function (event) {
+                        //event.target.cuePlaylist({list: "PLFgquLnL59anYA8FwzqNFMp3KMcbKwMaT"});
+                        //event.target.playVideo();
+                        setTimeout(function() {
+                            event.target.setShuffle({'shufflePlaylist' : true});
+                        }, 1000);
+                    }
+                }
+            });
+        }
+    </script>
+  </body>
+</html>
+</p>
+
+Outdated videos
+
 	<table style="background-color: #f8f8f8;">
 	<tbody>
 	<tr>
